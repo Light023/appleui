@@ -1,0 +1,207 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #b9b9b9;
+  padding: 10px 0px;
+  font-size: 12px;
+  margin: 0%;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+body nav .nav-items {
+  width: 100vw;
+  margin: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body nav .nav-items a {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+
+body nav .nav-items-text {
+  margin-left: 25px;
+}
+
+body nav .nav-items-text li {
+  margin: 20px;
+  display: inline;
+  list-style: none;
+}
+
+body nav .nav-items-text li a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+ "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body nav .nav-items-text li a:hover {
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body nav .nav-items-logo {
+  margin-left: 0px;
+  font-size: 1.5em;
+  color: #c9c9c9;
+}
+
+body nav .nav-items-logo:hover {
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body nav .nav-items-button1 {
+  font-weight: lighter;
+  color: #b9b9b9;
+  margin-left: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+body nav .nav-items-button1:hover {
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body nav .nav-items-button2 {
+  font-weight: lighter;
+  color: #b9b9b9;
+  margin-left: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+body nav .nav-items-button2:hover {
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body .section-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  padding-top: 3%;
+  height: 87vh;
+  width: 100vw;
+}
+
+body .section-container-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 79%;
+  height: 100%;
+  padding: none;
+}
+
+body .section-container-image img {
+  height: 100%;
+  width: 80%;
+}
+
+body .section-container-text {
+  margin: 0%;
+  padding: 0;
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+}
+
+body .section-container-text h1 {
+  color: white;
+}
+
+body .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: 3%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body .content #header {
+  color: #1d1d1d;
+  font-size: 3em;
+  margin: 0%;
+  font-weight: bolder;
+  padding: 0;
+}
+
+body .content #body {
+  font-size: 1.7em;
+  margin: 0%;
+  color: #1d1d1d;
+}
+
+body .content #body2 {
+  margin: 4px;
+  color: grey;
+  font-size: 1.4em;
+  
+}
+/*# sourceMappingURL=style.css.map */
